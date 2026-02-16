@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  
+<head>
+  <title>Boxuan's Essay Grader</title>
+</head>
+
+<body>
+
+  <h1>Mr. Adam's Essay Grader</h1>
+
+  <form id="essayForm">
+    <label for="name">Student Name:</label><br>
+    <input type="text" id="name" name="name" required><br><br>
+    <label for="essay">Student Essay:</label><br>
+    <textarea id="essay" name="essay" rows="20" cols="80" required></textarea><br><br>
+    <button type="submit">Submit</button>
+  </form>
+
+  <div id="result" style="display:none;">
+    <h2>Grade: <span id="grade"></span>%</h2>
+    <h3>Deductions:</h3>
+    <ul id="reasons"></ul>
+  </div>
+
+  <script src="/script.js"></script>
+
+</body>
+
+</html>
