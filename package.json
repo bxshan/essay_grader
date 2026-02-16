@@ -1,0 +1,17 @@
+{
+  "name": "eg",
+  "version": "1.0.0",
+  "description": "Boxuan Shan HarkerDev initial project",
+  "scripts": {
+    "build": "g++ -std=c++17 -O2 -o grader g.cc",
+    "start": "node server.js",
+    "test": "node test-grader.js"
+  },
+  "keywords": [],
+  "author": "Boxuan Shan, with JS help from Claude Opus 4.6",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.2.1",
+    "mongoose": "^9.2.0"
+  }
+}
